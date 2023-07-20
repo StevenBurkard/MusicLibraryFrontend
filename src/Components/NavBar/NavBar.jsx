@@ -1,11 +1,11 @@
-import { Typography } from '@mui/material';
+import  Typography  from '@mui/material/Typography';
 import React from 'react';
 import './NavBar.css'
 
 
 const NavBar = () => {
     return ( 
-        <Typography variant='h3' gutterBottom>
+        <Typography variant='h3' sx={{fontFamily:"Lobster, cursive"}} gutterBottom>
             LyricLand
         </Typography>
      );
