@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect} from 'react';
 import axios from 'axios';
+import Typography from '@mui/material/Typography';
 import NavBar from './Components/NavBar/NavBar';
 import MusicTable from './Components/MusicTable/MusicTable';
 import AddSongForm from './Components/AddSongForm/AddSongForm';

@@ -1,9 +1,13 @@
+import { Typography } from '@mui/material';
 import React from 'react';
+import './NavBar.css'
 
 
 const NavBar = () => {
     return ( 
-        <h3>LyricLand</h3>
+        <Typography variant='h3' gutterBottom>
+            LyricLand
+        </Typography>
      );
 }
  
