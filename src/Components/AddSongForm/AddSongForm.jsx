@@ -1,4 +1,6 @@
 import React, { useState} from 'react';
+import './AddSongForm.css'
+import { Stack } from '@mui/material';
 
 
 const AddSongForm = ({ addNewSong }) => {
@@ -29,44 +31,44 @@ const AddSongForm = ({ addNewSong }) => {
     return ( 
         <form onSubmit={handleSubmit}>
             <h3>Add New Song:</h3>
-            <label htmlFor="title">Title: </label>
+            <label htmlFor="title" className='label'>Title: </label>
             <input
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
                 name='title' 
             />
-            <label htmlFor='artist'>Artist:</label>
+            <label htmlFor='artist' className='label'>Artist:</label>
             <input
                 value={artist}
                 onChange={(e) => setArtist(e.target.value)}
                 name='artist'
              />
-            <label htmlFor='album'>Album:</label>
+            <label htmlFor='album' className='label'>Album:</label>
             <input
                 value={album}
                 onChange={(e) => setAlbum(e.target.value)}
                 name='album'
             />
-            <label htmlFor='release_date'>Release Date:</label>
+            <label htmlFor='release_date' className='label'>Release Date:</label>
             <input
                 value={release_date}
                 onChange={(e) => setReleaseDate(e.target.value)}
                 name='release_date'
             />
-            <label htmlFor='genre'>Genre:</label>
+            <label htmlFor='genre' className='label'>Genre:</label>
             <input
                 value={genre}
                 onChange={(e) => setGenre(e.target.value)}
                 name='genre'
             />
-            <label htmlFor='likes'>Likes:</label>
+            <label htmlFor='likes' className='label'>Likes:</label>
             <input
                 type='number'
                 value={likes}
                 onChange={(e) => setLikes(e.target.value)}
                 name='likes'
             />
-            <label htmlFor='running_time'>Running Time:</label>
+            <label htmlFor='running_time' className='label'>Running Time:</label>
             <input
                 type='number'
                 value={running_time}

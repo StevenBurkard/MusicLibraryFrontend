@@ -10,6 +10,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 import NavBar from './Components/NavBar/NavBar';
 import MusicTable from './Components/MusicTable/MusicTable';
 import AddSongForm from './Components/AddSongForm/AddSongForm';
